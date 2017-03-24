@@ -30,9 +30,6 @@ public class Tugas1 extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        panelHome = new javax.swing.JPanel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
         panelKubus = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         panelBalok = new javax.swing.JPanel();
@@ -43,6 +40,9 @@ public class Tugas1 extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         panelKerucut = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
+        panelHome = new javax.swing.JPanel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
@@ -85,41 +85,6 @@ public class Tugas1 extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(102, 255, 255));
         jPanel2.setPreferredSize(new java.awt.Dimension(580, 119));
         jPanel2.setLayout(new java.awt.CardLayout());
-
-        jLabel9.setFont(new java.awt.Font("Maiandra GD", 1, 24)); // NOI18N
-        jLabel9.setText("SELAMAT DATANG DI ");
-
-        jLabel8.setFont(new java.awt.Font("Maiandra GD", 1, 24)); // NOI18N
-        jLabel8.setText("APLIKASI RUMUS BANGUN RUANG");
-
-        javax.swing.GroupLayout panelHomeLayout = new javax.swing.GroupLayout(panelHome);
-        panelHome.setLayout(panelHomeLayout);
-        panelHomeLayout.setHorizontalGroup(
-            panelHomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelHomeLayout.createSequentialGroup()
-                .addContainerGap(88, Short.MAX_VALUE)
-                .addComponent(jLabel8)
-                .addGap(75, 75, 75))
-            .addGroup(panelHomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelHomeLayout.createSequentialGroup()
-                    .addContainerGap(164, Short.MAX_VALUE)
-                    .addComponent(jLabel9)
-                    .addGap(149, 149, 149)))
-        );
-        panelHomeLayout.setVerticalGroup(
-            panelHomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelHomeLayout.createSequentialGroup()
-                .addGap(207, 207, 207)
-                .addComponent(jLabel8)
-                .addContainerGap(397, Short.MAX_VALUE))
-            .addGroup(panelHomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(panelHomeLayout.createSequentialGroup()
-                    .addGap(154, 154, 154)
-                    .addComponent(jLabel9)
-                    .addContainerGap(450, Short.MAX_VALUE)))
-        );
-
-        jPanel2.add(panelHome, "card7");
 
         panelKubus.setBackground(new java.awt.Color(51, 255, 51));
 
@@ -237,6 +202,41 @@ public class Tugas1 extends javax.swing.JFrame {
         );
 
         jPanel2.add(panelKerucut, "card6");
+
+        jLabel9.setFont(new java.awt.Font("Maiandra GD", 1, 24)); // NOI18N
+        jLabel9.setText("SELAMAT DATANG DI ");
+
+        jLabel8.setFont(new java.awt.Font("Maiandra GD", 1, 24)); // NOI18N
+        jLabel8.setText("APLIKASI RUMUS BANGUN RUANG");
+
+        javax.swing.GroupLayout panelHomeLayout = new javax.swing.GroupLayout(panelHome);
+        panelHome.setLayout(panelHomeLayout);
+        panelHomeLayout.setHorizontalGroup(
+            panelHomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelHomeLayout.createSequentialGroup()
+                .addContainerGap(88, Short.MAX_VALUE)
+                .addComponent(jLabel8)
+                .addGap(75, 75, 75))
+            .addGroup(panelHomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelHomeLayout.createSequentialGroup()
+                    .addContainerGap(164, Short.MAX_VALUE)
+                    .addComponent(jLabel9)
+                    .addGap(149, 149, 149)))
+        );
+        panelHomeLayout.setVerticalGroup(
+            panelHomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelHomeLayout.createSequentialGroup()
+                .addGap(207, 207, 207)
+                .addComponent(jLabel8)
+                .addContainerGap(397, Short.MAX_VALUE))
+            .addGroup(panelHomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(panelHomeLayout.createSequentialGroup()
+                    .addGap(154, 154, 154)
+                    .addComponent(jLabel9)
+                    .addContainerGap(450, Short.MAX_VALUE)))
+        );
+
+        jPanel2.add(panelHome, "card7");
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.CENTER);
 
